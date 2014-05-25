@@ -1,0 +1,34 @@
+<div data-role="page" id="PURPLE" data-theme="b">
+	<div data-role="header">
+		<h1>COLOR SPLASH</h1>
+	</div><!-- /header -->
+	<div role="main" class="ui-content" style="background-color:#660099">
+    	<div data-role="controlgroup" data-type="vertical">
+		<h3>PURPLE</h3>
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		</div>
+			<p><a href="#pageTwo" data-role="button" data-icon="arrow-r" data-transition= "slide" data-iconpos="right">Color Chart</a></p>
+			<p><a href="#home" data-role="button" data-icon="arrow-r" data-transition= "slide" data-iconpos="right">Home</a></p>
+			
+			
+			<!-- Start of NEW page -->
+<div data-role="page" id="NEW" data-theme="b">
+
+	<div data-role="header">
+		<h1>COLOR SPLASH</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" style="background-color:#FF0066">
+    	<div data-role="controlgroup" data-type="vertical">
+    		<h4>COLOR-CHART</h4>
+		<h2>NEW</h2>
+		
+			<p><a href="#home" data-role="button" data-icon="arrow-r" data-transition= "fade" data-iconpos="right">Home</a></p>
+		
+		</div>
+		</div><!-- /content -->
+	
+	<div data-role="footer">
+		<h4></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->

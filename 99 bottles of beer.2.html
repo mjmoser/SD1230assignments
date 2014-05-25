@@ -1,0 +1,21 @@
+<html>
+<head> <title>99 Bottles of Beer</title>
+</head>
+<body>
+ <div id="words"> 99 Bottles of Beer <br /></div> 
+  <script> 
+ var wordsPlace = document.getElementById('words');
+for (var i = 99; i >= 1; i--){
+ var lyrics = i + " Bottles of Beer on the wall, " + i + " Bottles of Beer. ";
+wordsPlace.innerHTML = wordsPlace.innerHTML + lyrics + '<br />';
+wordsPlace.innerHTML = wordsPlace.innerHTML + 'You take one down, pass it around...<br />';
+var tmp = i - 1;
+wordsPlace.innerHTML = wordsPlace.innerHTML + tmp + ' Bottles of beer on the wall. <br /><br />';
+ 
+}
+ </script>
+ <div>No more bottles of beer on the wall.. </div>
+</body>
+</html>
+ 
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Mobile Site</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="jquery.mobile-1.0.1.css" />
+	<script src="jquery-1.6.4.js"></script>
+	<script src="jquery.mobile-1.0.1.js"></script> 
+</head>
+
+<body>
+	<div data-role="page" id="home" data-theme="b">
+		<div id="pageOne" data-role="header">
+			<h1>COLOR SPLASH</h1>
+		</div>
+
+		<div data-role="content"; > 
+			<h2>  COLOR YOU CAN LIVE WITH!</h2>
+						
+			<ul>
+			<li>Choose an accent wall to pop with color! </li>
+			<li>Coordinate your decorative accents with existing colors!</li>
+			<li>Choose a new color scheme to refresh and rejuvenate! </li></ul>
+			<br>
+			
+			<img src= "living.jpg."alt="Living Room"/>
+			<img src= "dining.jpg."alt="Dining Room"/>
+			<img src= "stairs.jpg."alt="Stairs"/>			
+			<img src= "bedroom.jpg."alt="Bedroom"/>			
+		
+			<p><a href="#pageTwo" data-role="button" data-icon="arrow-r" data-transition= "fade" data-iconpos="right">Second page</a></p>
+		</div>
+
+<button onclick="myFunction()">"In Case of Emergency"</button>
+
+<script>
+function myFunction()
+{
+alert("In an Emergency call 911 to get immediate help when your back goes out!!");
+}
+</script>
+	
+	<div data-role="footer">
+			<h4>Page 1</h4>
+		</div>
+	</div>
+
+	<div id="pageTwo" data-role="page" data-theme="b">
+		<div data-role="header">
+			<h1>COLOR SPLASH</h1>
+		</div>
+	
+		<div data-role="content">
+		<h4>COLOR-CHART</h4>
+		<h3>Use the Color-Chart to find your new room color or decorative accents!</h3>
+		<img src= "color1.jpg."alt="Color Chart 1"/>
+		<img src= "color3.jpg."alt="Color Chart 3"/>			
+		<img src= "color4.jpg."alt="Color Chart 4"/>
+		
+			</p>
+			<p><a href="#home" data-role="button" data-icon="arrow-r" data-transition= "fade" data-iconpos="right">First page</a></p>
+		</div>
+		
+		<div data-role="footer">
+			<h4>Page 2</h4>
+		</div >
+	</div>  
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<title>Create a calculator</title>
+<script type="text/javascript">
+
+function addStuff() {
+var result = parseInt(document.calculator.numberOne.value, 10) + parseInt(document.calculator.numberTwo.value, 10);
+document.calculator.results.value = result; 
+}
+function subtractStuff() {
+var result = parseInt(document.calculator.numberOne.value, 10) - parseInt(document.calculator.numberTwo.value, 10);
+document.calculator.results.value = result; 
+}
+function multiplyStuff() {
+var result = parseInt(document.calculator.numberOne.value, 10) * parseInt(document.calculator.numberTwo.value, 10);
+document.calculator.results.value = result; 
+}
+function divideStuff() {
+var result = parseInt(document.calculator.numberOne.value, 10) / parseInt(document.calculator.numberTwo.value, 10);
+document.calculator.results.value = result; 
+}
+
+</script>
+</head>
+
+<body>
+ <form name="calculator">
+	<input  id="numberOne" type="text" placeholder= " First Value " />
+	<input  id="numberTwo" type="text" placeholder= " Second Value " /><br /><br/>
+	<button type="button" OnClick="javascript:addStuff()">+</button> 
+	<button type="button" OnClick="javascript:subtractStuff()">-</button>
+	<button type="button" OnClick="javascript:multiplyStuff()">*</button>
+	<button type="button" OnClick="javascript:divideStuff()">/</button><br/><br/>
+	<input  id="results" type="text" />
+		 
+ </form>
+	
+	
+</body>	
+</html>

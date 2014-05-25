@@ -1,0 +1,47 @@
+<html>
+<title>Pong Game</title>
+
+<canvas id="myCanvas" width="620" height="310"
+style="border:3px solid #000000;">;
+
+<script>
+var canvas; 
+  canvas = document.querySelector('canvas');
+ var ctx = canvas.getContext('2d');
+ setInterval(function, timeout)
+ 
+ctx.arc(75, 75, 10, 0, Math.PI*2, true); 
+ctx.closePath();
+ctx.fillStyle = "#6600CC";
+
+ctx.rect(75, 295, 100, 10); 
+ctx.closePath(); 
+ctx.fill();
+ctx.fillStyle = "#6600CC";
+
+var x = 150;
+var y = 150;
+var dx = 2;
+var dy = 4;
+var ctx;
+
+function init() {
+  ctx = $('#canvas')[0].getContext("2d");
+  return setInterval(draw, 10);
+}
+
+function draw() {
+  ctx.clearRect(0,0,300,300);
+  ctx.beginPath();
+  ctx.arc(x, y, 10, 0, Math.PI*2, true); 
+  ctx.closePath();
+  ctx.fill();
+  x += dx;
+  y += dy;
+}
+
+init();
+ </script.>
+ 
+
+</html>
